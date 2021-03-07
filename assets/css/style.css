@@ -1,0 +1,439 @@
+@charset "UTF-8";
+@font-face {
+  font-family: myFont;
+  src: url("../fonts/Changa-Regular.ttf");
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+body {
+  direction: rtl;
+  font-family: myFont;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.slider-item:focus {
+  outline: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #6C1B26, #360E13);
+  border: 0;
+  height: 182px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.navbar .navbar-brand {
+  margin-top: 33px;
+  width: 224px;
+  height: 101px;
+}
+.navbar .navbar-brand img {
+  width: 124px;
+  height: 71px;
+}
+.navbar .navbar-nav {
+  margin-top: 40px;
+}
+.navbar .navbar-nav a {
+  color: #fff !important;
+}
+.navbar .navbar-nav .active a {
+  background-color: transparent !important;
+}
+.navbar .navbar-nav-1 {
+  margin-top: 60px;
+}
+.navbar .down .play-img {
+  margin-top: -6px;
+}
+.navbar .down img {
+  width: auto;
+  height: auto;
+}
+
+.header {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 120px;
+}
+.header .header-content {
+  padding-top: 140px;
+}
+.header .header-content h5 {
+  font-size: 39px;
+  color: #232334;
+  margin-bottom: 12px;
+}
+.header .header-content p {
+  color: #6C1B26;
+  font-size: 16px;
+  line-height: 30px;
+}
+.header .header-img {
+  text-align: center;
+  padding-top: 64px;
+}
+.header .header-img img {
+  margin: auto;
+  width: 100%;
+  max-height: 378px;
+  max-width: 525px;
+}
+
+.quran-type {
+  margin-top: -80px;
+}
+.quran-type .card {
+  text-align: center;
+  box-shadow: 0 3px 32px rgba(0, 0, 0, 0.09);
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.quran-type .card .card-header {
+  background-color: #DECCCE;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: all 0.5s linear;
+}
+.quran-type .card .card-header h5 {
+  color: #6C1B26;
+  font-size: 20px;
+  transition: all 0.5s linear;
+}
+.quran-type .card .card-body {
+  padding: 25px;
+}
+.quran-type .card .card-body p {
+  font-size: 18px;
+  color: #606060;
+}
+.quran-type .card:hover .card-header {
+  background-color: #FC7E10;
+}
+.quran-type .card:hover .card-header h5 {
+  color: #fff;
+}
+
+.features {
+  margin-top: 80px;
+}
+.features .features-content h6 {
+  color: #6C1B26;
+  font-size: 18px;
+}
+.features .features-content h5 {
+  font-size: 32px;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.features .features-content h5 span {
+  background-color: #FC7E10;
+  border-radius: 8px;
+  color: #fff;
+  line-height: 60px;
+}
+.features .features-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+.features .features-content ul li {
+  position: relative;
+  padding-right: 30px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.features .features-content ul li:before {
+  font-family: "FontAwesome";
+  content: "";
+  color: #FFD758;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 20px;
+}
+.features .features-img {
+  position: relative;
+}
+.features .features-img::after {
+  content: url("../images/feature-img-bf.png");
+  position: absolute;
+  top: -70px;
+  left: 5%;
+  z-index: -1;
+}
+.features .features-img img {
+  width: 100%;
+  max-height: 495px;
+  max-width: 360px;
+}
+
+.th-moshaf {
+  background-color: #FAFAFA;
+  margin-top: 120px;
+}
+.th-moshaf .row {
+  margin: 0;
+}
+.th-moshaf .row .col-lg-6 {
+  padding: 0;
+}
+.th-moshaf .th-moshaf-content {
+  width: 80%;
+  margin: auto;
+  padding-top: 68px;
+}
+.th-moshaf .th-moshaf-content h6 {
+  font-size: 18px;
+  color: #6C1B26;
+}
+.th-moshaf .th-moshaf-content h5 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+.th-moshaf .th-moshaf-content p {
+  color: #606060;
+  font-size: 16px;
+  line-height: 28px;
+}
+.th-moshaf .th-moshaf-content .btn {
+  background-color: #FC7E10;
+  border-radius: 3px;
+  width: 168px;
+  height: 54px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  margin-top: 70px;
+  border: 1px solid #fff;
+  transition: all 0.5s linear;
+  margin-bottom: 20px;
+}
+.th-moshaf .th-moshaf-content .btn:hover {
+  background-color: #fff;
+  color: #FC7E10;
+  border: 1px solid #FC7E10;
+}
+.th-moshaf .th-moshaf-img img {
+  max-height: 683px;
+}
+
+.blogs {
+  margin-top: 60px;
+}
+.blogs .section-header {
+  text-align: center;
+}
+.blogs .section-header h6 {
+  color: #6C1B26;
+  font-size: 18px;
+}
+.blogs .section-header h5 {
+  font-size: 32px;
+}
+.blogs .blog-card {
+  margin-top: 20px;
+  transition: all 0.5s ease;
+  height: 430px;
+}
+.blogs .blog-card .card-img {
+  height: 202px;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+}
+.blogs .blog-card .card-title {
+  margin-top: 25px;
+  line-height: 25px;
+  color: #6C1B26;
+  font-size: 18px;
+  border-bottom: 1px solid #CDCDCD;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.blogs .blog-card .card-text {
+  color: #606060;
+  font-size: 16px;
+  margin-top: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.blogs .blog-card .card-link {
+  color: #FC7E10;
+  margin-top: 23px;
+  display: inline-block;
+}
+.blogs .blog-card:hover .card-img {
+  background-size: 120%;
+}
+.blogs .btn-more {
+  text-align: center;
+  margin-top: 50px;
+}
+.blogs .btn-more .btn {
+  background-color: #FC7E10;
+  border-radius: 3px;
+  width: 168px;
+  height: 54px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  margin-top: 70px;
+  border: 1px solid #fff;
+  transition: all 0.5s linear;
+  margin-bottom: 20px;
+}
+.blogs .btn-more .btn:hover {
+  background-color: #fff;
+  color: #FC7E10;
+  border: 1px solid #FC7E10;
+}
+
+footer {
+  margin-top: 74px;
+  padding: 54px 0 60px 0;
+  background-size: cover;
+  background-position: center;
+}
+footer .footer-logo {
+  width: 90%;
+}
+footer .footer-logo img {
+  width: 124px;
+  height: 71px;
+  margin-bottom: 46px;
+}
+footer .footer-logo p, footer .footer-logo ul {
+  color: #fff;
+}
+footer .footer-logo p {
+  font-size: 14px;
+  line-height: 30px;
+}
+footer .footer-logo ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+footer .footer-logo ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-right: 12px;
+}
+footer .footer-logo ul li::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: #FC7E10;
+  right: 0;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+footer .footer-department {
+  margin-top: 120px;
+}
+footer .footer-department h5, footer .footer-department h6 {
+  color: #fff;
+  font-size: 18px;
+}
+footer .footer-department ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+footer .footer-department ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-right: 12px;
+}
+footer .footer-department ul li::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: #FC7E10;
+  right: 0;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+footer .footer-department ul li a {
+  color: #fff;
+}
+footer .footer-department .download h6 {
+  margin-bottom: 20px;
+}
+footer .footer-department .download a {
+  display: block;
+  margin-top: 10px;
+}
+footer .footer-department .download img {
+  width: auto;
+  height: auto;
+}
+footer .footer-department .download .play-footer {
+  margin-right: -8px;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    height: auto;
+    padding-bottom: 20px !important;
+  }
+
+  .navbar-nav-2 {
+    margin-top: 20px !important;
+  }
+
+  .navbar-brand {
+    margin-bottom: 20px !important;
+  }
+}
+@media (max-width: 800px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0;
+  }
+
+  .navbar .navbar-toggle {
+    margin-top: 63px;
+  }
+}
+@media (max-width: 524px) {
+  .down .play-img {
+    margin-right: -6px;
+  }
+  .down img {
+    width: auto;
+    height: auto;
+  }
+
+  footer .footer-logo {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
