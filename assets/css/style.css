@@ -63,6 +63,10 @@ img {
 .navbar .down img {
   width: auto;
   height: auto;
+  transition: all 0.5s ease;
+}
+.navbar .down img:hover {
+  transform: translateY(-5px);
 }
 
 .header {
@@ -394,6 +398,10 @@ footer .footer-department .download a {
 footer .footer-department .download img {
   width: auto;
   height: auto;
+  transition: all 0.5s ease;
+}
+footer .footer-department .download img:hover {
+  transform: translateY(-5px);
 }
 footer .footer-department .download .play-footer {
   margin-right: -8px;

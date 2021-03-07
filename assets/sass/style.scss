@@ -77,6 +77,10 @@ img {
     img{
       width: auto;
       height: auto;
+      transition: all .5s ease;
+      &:hover{
+        transform: translateY(-5px)
+      }
     }
   }
 }
@@ -419,6 +423,10 @@ footer{
       img{
         width: auto;
         height: auto;
+        transition: all .5s ease;
+        &:hover{
+          transform: translateY(-5px)
+        }
       }
       .play-footer{
         margin-right: -8px;
